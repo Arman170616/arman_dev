@@ -109,4 +109,14 @@ section {
   color: var(--color-grey-2);
   pointer-events: none;
 }
+
+.controlls .active-btn {
+  background-color: var(--color-secondary);
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.controlls .active-btn i {
+  color: var(--color-white);
+}
 /*# sourceMappingURL=style.css.map */
